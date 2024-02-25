@@ -92,3 +92,83 @@ console.log(users[9].password)
 
 /*Логічні розгалуження:*/
 
+/*- Є змінна х, якій ви надаєте довільне числове значення.
+Якщо змінна x не дорівнює нулю, виведіть 'Вірно', інакше виведіть 'Невірно'. Перевірте  скрипт при a, що дорівнює 1, 0, -3*/
+
+let a = 1
+    if (a !== 0){
+        document.write('True')
+    } else {
+        document.write("False")
+    }
+a = 0
+   if (a === 0){
+       document.write('True')
+   } else {
+       document.write('False')
+   }
+a = -3
+    if (a<0){
+        document.write('True')
+    } else {
+        document.write('False')
+    }
+
+    /*- Дано змінну time яка рівна числу від 0 до 59. Потрібно написати код, який перевірить, до якої четверті години попадає число
+(в першу, другу, третю или четверту частину години).*/
+
+let time = 46
+    if (time > 0 && time <= 15) {
+        document.write('first half')
+    } else if (time >= 15 && time <= 30){
+        document.write('second half')
+    } else if (time >= 30 && time <= 45){
+        document.write('third half')
+    } else if (time >= 45 && time <=60){
+        document.write('four half')
+    }
+
+    /*- У змінній day дано якесь число від 1 до 31. Потрібно визначити, у яку половину(декаду) місяця потрапляє це число (у першу, другу чи третю).*/
+
+let day = 20
+    if (day > 0 && day <=11) {
+        document.write('first decade')
+    } else if (day >= 11 && day <=21) {
+        document.write('second decade')
+    } else if (day >= 21 && day <= 31) {
+        document.write('third decade')
+    }
+
+   /*- Скласти розклад на тиждень за домопоги switch. Користувач вводить порядковий номер дня тижня і на екрані відображається інфа що заплановано на цей день (можна замість плану на день, назву дня англійською).*/
+let graphic = 3
+    switch (graphic){
+        case 1:
+            console.log('Monday')
+            break
+        case 2:
+            console.log("Tuesday")
+            break
+        case 3:
+            console.log('Wednesday')
+            break
+        case 4:
+            console.log('Thursday')
+            break
+        case 5:
+            console.log('Friday')
+            break
+        case 6:
+            console.log('Saturday')
+            break
+        case 7:
+            console.log('Sunday')
+            break
+        default:
+            console.log('Default')
+    }
+
+    /*- Користувач вводить або має два числа.
+Потрібно знайти та вивести максимальне число з тих двох .
+Також потрібно врахувати коли введені рівні числа.*/
+
+
