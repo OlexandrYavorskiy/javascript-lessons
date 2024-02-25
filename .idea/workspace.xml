@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2566d415-5276-46a0-ba08-7f1e6b00e24c" name="Changes" comment="got stucked -_-">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="2566d415-5276-46a0-ba08-7f1e6b00e24c" name="Changes" comment="fixed">
       <change beforePath="$PROJECT_DIR$/homework/main2.js" beforeDir="false" afterPath="$PROJECT_DIR$/homework/main2.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,7 +59,7 @@
       <workItem from="1708604862402" duration="262000" />
       <workItem from="1708610051362" duration="125000" />
       <workItem from="1708610275918" duration="30000" />
-      <workItem from="1708872254970" duration="12610000" />
+      <workItem from="1708872254970" duration="13001000" />
     </task>
     <task id="LOCAL-00001" summary="completed hw-1-1">
       <option name="closed" value="true" />
@@ -94,7 +93,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708885130923</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="fixed">
+      <option name="closed" value="true" />
+      <created>1708886999204</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1708886999204</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -104,6 +111,7 @@
     <MESSAGE value="completed hw-1-1" />
     <MESSAGE value="completed massive" />
     <MESSAGE value="got stucked -_-" />
-    <option name="LAST_COMMIT_MESSAGE" value="got stucked -_-" />
+    <MESSAGE value="fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed" />
   </component>
 </project>
