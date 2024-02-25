@@ -120,20 +120,20 @@ a = -3
 let time = 46
     if (time > 0 && time <= 15) {
         document.write('first half')
-    } else if (time >= 15 && time <= 30){
+    } else if (time >= 16 && time <= 30){
         document.write('second half')
-    } else if (time >= 30 && time <= 45){
+    } else if (time >= 31 && time <= 45){
         document.write('third half')
-    } else if (time >= 45 && time <=60){
+    } else if (time >= 46 && time <=60){
         document.write('four half')
     }
 
     /*- У змінній day дано якесь число від 1 до 31. Потрібно визначити, у яку половину(декаду) місяця потрапляє це число (у першу, другу чи третю).*/
 
 let day = 20
-    if (day > 0 && day <=11) {
+    if (day > 0 && day <=10) {
         document.write('first decade')
-    } else if (day >= 11 && day <=21) {
+    } else if (day >= 11 && day <=20) {
         document.write('second decade')
     } else if (day >= 21 && day <= 31) {
         document.write('third decade')
@@ -185,6 +185,9 @@ if (number1>number2){
 
 /*- є змінна х, яка може прийняти будь-яке значення (стрінг, число, undefined, null  і тд включно). Напишіть код який,
 за допомоги  оператора || буде присвоювати змінній х значення "default"  якщо значення змінної х являється falsy (хибноподібні, тобто приводиться до false)*/
+
+let age = 10
+
 
 
 
