@@ -171,4 +171,14 @@ let graphic = 3
 Потрібно знайти та вивести максимальне число з тих двох .
 Також потрібно врахувати коли введені рівні числа.*/
 
+let user = [50,50]
+let number1 = user[0]
+let number2 = user [1]
+if (number1>number2){
+    console.log(number1)
+} else if (number2>number1){
+    console.log(number2)
+} else {
+    console.log('numbers are equal')
+}
 
