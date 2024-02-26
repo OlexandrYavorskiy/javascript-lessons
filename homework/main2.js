@@ -186,8 +186,12 @@ if (number1>number2){
 /*- є змінна х, яка може прийняти будь-яке значення (стрінг, число, undefined, null  і тд включно). Напишіть код який,
 за допомоги  оператора || буде присвоювати змінній х значення "default"  якщо значення змінної х являється falsy (хибноподібні, тобто приводиться до false)*/
 
-let asd = '' || 'def'
-console.log(asd)
+let asd = 0 || 'def'
+    if (asd < 0){
+        console.log('false')
+    } else if (asd <0 || 'def')
+        console.log('default')
+
 
 
 
