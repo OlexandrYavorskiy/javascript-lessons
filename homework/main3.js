@@ -19,9 +19,20 @@ for (let i = 0; i < divs.length; i++) {
 
 
 /*- За допомогою циклу for і document.write() вивести 10 блоків div c довільним текстом і індексом всередині*/
-
-for (let i = 0; i < 10; i++){
-    document.write('<div>33333</div>')
+let divs2 = [
+    {name : 'boris'},
+    {name : 'tanya'},
+    {name : 'ostap'},
+    {name : 'petro'},
+    {name : 'katya'},
+    {name : 'sveta'},
+    {name : 'marina'},
+    {name : 'alf'},
+    {name : 'brett'},
+    {name : 'pit'}
+]
+for (let i = 0; i < divs2.length; i++){
+    document.write(`<div> ${divs2[i].name}</div>`)
 }
 
 /*- За допомогою циклу while вивести в документ 20 блоків h1 c довільним текстом всередині.*/
