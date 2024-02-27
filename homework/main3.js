@@ -1,8 +1,20 @@
 
 /*- За допомогою циклу for і document.write() вивести 10 блоків div c довільним текстом всередині*/
+let divs = [
+    {name : 1},
+    {name : 2},
+    {name : 3},
+    {name : 4},
+    {name : 5},
+    {name : 6},
+    {name : 7},
+    {name : 8},
+    {name : 9},
+    {name : 10}
+]
+for (let i = 0; i < divs.length; i++) {
+    document.write(`<div> ${divs[i].name}</div>`)
 
-for (let i = 0; i < 10; i++){
-    document.write(' <div>22222</div>')
 }
 
 
@@ -90,16 +102,3 @@ for (const product of products) {
  - користувачів які старші за 30 років*/
 
 
-let users = [
-    {name: 'vasya', age: 31, status: false},
-    {name: 'petya', age: 30, status: true},
-    {name: 'kolya', age: 29, status: true},
-    {name: 'olya', age: 28, status: false},
-    {name: 'max', age: 30, status: true},
-    {name: 'anya', age: 31, status: false},
-    {name: 'oleg', age: 28, status: false},
-    {name: 'andrey', age: 29, status: true},
-    {name: 'masha', age: 30, status: true},
-    {name: 'olya', age: 31, status: false},
-    {name: 'max', age: 31, status: true}
-];
