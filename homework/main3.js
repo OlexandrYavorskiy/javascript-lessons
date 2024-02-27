@@ -32,7 +32,7 @@ let divs2 = [
     {name : 'pit'}
 ]
 for (let i = 0; i < divs2.length; i++){
-    document.write(`<div> ${divs2[i].name}</div>`)
+    document.write(`<div> ${divs2[i].name} ${[i]}</div>`)
 }
 
 /*- За допомогою циклу while вивести в документ 20 блоків h1 c довільним текстом всередині.*/
