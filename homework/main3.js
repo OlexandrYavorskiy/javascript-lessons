@@ -1,19 +1,8 @@
 
 /*- За допомогою циклу for і document.write() вивести 10 блоків div c довільним текстом всередині*/
-let divs = [
-    {name : 1},
-    {name : 2},
-    {name : 3},
-    {name : 4},
-    {name : 5},
-    {name : 6},
-    {name : 7},
-    {name : 8},
-    {name : 9},
-    {name : 10}
-]
-for (let i = 0; i < divs.length; i++) {
-    document.write(`<div> ${divs[i].name}</div>`)
+
+for (let i = 0; i < 10; i++) {
+    document.write(`<div> hello </div>`)
 
 }
 
@@ -32,14 +21,23 @@ let divs2 = [
     {name : 'pit'}
 ]
 for (let i = 0; i < divs2.length; i++){
-    document.write(`<div> ${divs2[i].name} ${[i]}</div>`)
+    document.write(`<div> ${divs2[i].name} - ${i}</div>`)
 }
 
 /*- За допомогою циклу while вивести в документ 20 блоків h1 c довільним текстом всередині.*/
-
-
+let j = 0
+while (j < 10) {
+    document.write(`<h1>Wassup</h1>`)
+    j++
+}
 
 /*- За допомогою циклу while вивести в документ 20 блоків h1 c довільним текстом і індексом всередині.*/
+let numbers = [1,2,3,4,5,6,7,8,9,10]
+let i = 0
+while (i < numbers.length) {
+    document.write(`<h1>${numbers} - ${i}</h1>`)
+    i++
+}
 
 /*- Використовуючи данні з масиву, за допомоги document.write та циклу побудувати структуру по шаблону
 Масив:
@@ -61,12 +59,24 @@ let listOfItems = ['html', 'css', 'javascript', 'mysql', 'mongodb', 'react', 'an
 замість 'ITEM OF ARRAY' підставити елемент з масиву щоб получився цілий список з даними з масиву
 */
 
-
+let listOfItems = ['html', 'css', 'javascript', 'mysql', 'mongodb', 'react', 'angular', 'node.js'];
+document.write(`<ul>`)
+for (let listOfItem of listOfItems) {
+    document.write(`<li>${listOfItem}</li>`)
+}
+document.write(`</ul>`)
 
 
 /*Використовуючи данні з масиву, за допомоги document.write та циклу
 побудувати структуру по шаблону
 Великими літерами прописанні властивості об'єкту які потрібно впровадити в шаблон*/
+/*ШАБЛОН
+ <div class="product-card">
+        <h3 class="product-title">TITLE. Price - PRICE</h3>
+        <img src="IMAGE" alt="" class="product-image">
+</div>
+Замість TITLE PRICE IMAGE - підставити відповідні поля з об'єкту*/
+
 
 let products = [
     {
@@ -96,12 +106,6 @@ for (const product of products) {
                             <img src="${product.image}" alt="product-image">
                                 </div>`)
 }
-/*ШАБЛОН
- <div class="product-card">
-        <h3 class="product-title">TITLE. Price - PRICE</h3>
-        <img src="IMAGE" alt="" class="product-image">
-</div>
-Замість TITLE PRICE IMAGE - підставити відповідні поля з об'єкту*/
 
 
 
@@ -112,4 +116,32 @@ for (const product of products) {
  - користувачів зі статусом false
  - користувачів які старші за 30 років*/
 
+let users = [
+    {name: 'vasya', age: 31, status: false},
+    {name: 'petya', age: 30, status: true},
+    {name: 'kolya', age: 29, status: true},
+    {name: 'olya', age: 28, status: false},
+    {name: 'max', age: 30, status: true},
+    {name: 'anya', age: 31, status: false},
+    {name: 'oleg', age: 28, status: false},
+    {name: 'andrey', age: 29, status: true},
+    {name: 'masha', age: 30, status: true},
+    {name: 'olya', age: 31, status: false},
+    {name: 'max', age: 31, status: true}
+    ]
+for (let user of users) {
+    if (user.status === true){
+        console.log(user)
+    }
+}
+for (let user of users) {
+    if (user.status === false){
+        console.log(user)
+    }
+}
+for (let user of users) {
+    if (user.age > 30) {
+        console.log(user)
+    }
 
+}
