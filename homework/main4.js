@@ -23,13 +23,13 @@ let r3 = calc3(h =45, r = 55)
 document.write(r3)
 
 /*- створити функцію яка приймає масив та виводить кожен його елемент*/
-let array = [
+let arrayM = [
     {name:'js1'},
     {name:'js2'},
     {name:'js3'},
     {name:'js4'},
 ];
-for (let arrayElement of array) {
+for (let arrayElement of arrayM) {
 array1(arrayElement)
 }
 function array1(object) {
@@ -65,31 +65,70 @@ containerUl2()
 
 /*- створити функцію яка приймає масив примітивних елементів (числа,стрінги,булеві), та будує для них список*/
 let data = [
-    {number:20},{string:'Oklahoma'},{status:false}
+    {number:20,string:'Oklahoma',status:false}
   ]
-plan(20,'Oklahoma',false)
-function plan(number,string,boolean) {
-    for (let arrayElement of data) {
-        document.write(`<div>
+for (let datum of data) {
+    plan(datum)
+}
+function plan(dataObj) {
+            document.write(`<div>
                             <h1>
-                            число - ${number}
-                            стрінга - ${string}
-                            булеан - ${boolean}
+                            число - ${dataObj.number}
+                            стрінга - ${dataObj.string}
+                            булеан - ${dataObj.status}
 </h1>
 </div>`)
 
-    }
+
 
 }
 
 /*- створити функцію яка приймає масив об'єктів з наступними полями id,name,age , та виводить їх в документ. Для кожного об'єкту окремий блок.*/
 
+function carsAge(dataObj) {
+    document.write(`<div>
+                            <h1>
+                            id - ${dataObj.id}
+                            name - ${dataObj.name}
+                           age - ${dataObj.age}
+</h1>
+</div>`)
+}
+
+let cars = [
+    {id:'1',name:'Mazda',age:'1993'},
+    {id:'2',name:'Toyota',age:'2002'},
+    {id:'3',name:'Bentley',age:'2004'},
+]
+for (let car of cars) {
+    carsAge(car)
+}
 /*- створити функцію яка повертає найменьше число з масиву*/
 
 /*- створити функцію sum(arr)яка приймає масив чисел, сумує значення елементів масиву та повертає його. Приклад sum([1,2,10]) //->13*/
+/*let sumArr = [1,2,10]
+function sum(arr) {
+  let sum = 0
+
+
+
+}*/
 
 /*- створити функцію swap(arr,index1,index2). Функція міняє місцями заняення у відаовідних індексах
 Приклад  swap([11,22,33,44],0,1) //=> [22,11,33,44]*/
 
+let numbers = [1,2,3,4,5,6]
+console.log(numbers)
+function swap(arr,index1,index2) {
+    let val1 = arr[index1]
+    let val2 = arr[index2]
+
+    arr.splice(index2,1,val1)
+    arr.splice(index1,1,val2)
+
+    return console.log(arr)
+}
+swap(numbers,0,1)
 /*- Написати функцію обміну валюти exchange(sumUAH,currencyValues,exchangeCurrency)
 Приклад exchange(10000,[{currency:'USD',value:40},{currency:'EUR',value:42}],'USD') // => 250*/
+

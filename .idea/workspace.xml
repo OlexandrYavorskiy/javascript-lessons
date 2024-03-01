@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2566d415-5276-46a0-ba08-7f1e6b00e24c" name="Changes" comment="create hw-4">
+    <list default="true" id="2566d415-5276-46a0-ba08-7f1e6b00e24c" name="Changes" comment="completed half of hw-4">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/homework/main4.js" beforeDir="false" afterPath="$PROJECT_DIR$/homework/main4.js" afterDir="false" />
     </list>
@@ -74,7 +74,8 @@
       <workItem from="1709139465571" duration="244000" />
       <workItem from="1709210181155" duration="1323000" />
       <workItem from="1709216275759" duration="1294000" />
-      <workItem from="1709250953573" duration="8493000" />
+      <workItem from="1709250953573" duration="8663000" />
+      <workItem from="1709294434531" duration="10056000" />
     </task>
     <task id="LOCAL-00001" summary="completed hw-1-1">
       <option name="closed" value="true" />
@@ -212,7 +213,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709211221469</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="completed half of hw-4">
+      <option name="closed" value="true" />
+      <created>1709260327016</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1709260327016</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -228,6 +237,7 @@
     <MESSAGE value="maybe fixed)" />
     <MESSAGE value="finished" />
     <MESSAGE value="create hw-4" />
-    <option name="LAST_COMMIT_MESSAGE" value="create hw-4" />
+    <MESSAGE value="completed half of hw-4" />
+    <option name="LAST_COMMIT_MESSAGE" value="completed half of hw-4" />
   </component>
 </project>
