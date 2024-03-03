@@ -104,6 +104,22 @@ for (let car of cars) {
     carsAge(car)
 }
 /*- створити функцію яка повертає найменьше число з масиву*/
+function minMaxFn() {
+    let min = arguments[0]
+    let max = arguments[0]
+    for (let val of arguments) {
+        if (val < min){
+            min = val
+        }else if (val > max){
+            max = val
+        }
+    }
+    console.log(min)
+    return min
+}
+let result = minMaxFn(1,2,3,4)
+console.log('Min',result)
+
 
 /*- створити функцію sum(arr)яка приймає масив чисел, сумує значення елементів масиву та повертає його. Приклад sum([1,2,10]) //->13*/
 function arrSum(arr) {
