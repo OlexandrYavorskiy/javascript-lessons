@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2566d415-5276-46a0-ba08-7f1e6b00e24c" name="Changes" comment="completed hw 4">
+    <list default="true" id="2566d415-5276-46a0-ba08-7f1e6b00e24c" name="Changes" comment="started hw5 main5.js">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/main5.js" beforeDir="false" afterPath="$PROJECT_DIR$/homework/main5.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +78,8 @@
       <workItem from="1709294434531" duration="10120000" />
       <workItem from="1709306208277" duration="3185000" />
       <workItem from="1709427419479" duration="1491000" />
-      <workItem from="1709466179397" duration="6939000" />
+      <workItem from="1709466179397" duration="7664000" />
+      <workItem from="1709493179264" duration="998000" />
     </task>
     <task id="LOCAL-00001" summary="completed hw-1-1">
       <option name="closed" value="true" />
@@ -255,7 +257,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709471345190</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="started hw5 main5.js">
+      <option name="closed" value="true" />
+      <created>1709485957731</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1709485957731</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -274,6 +284,7 @@
     <MESSAGE value="completed half of hw-4" />
     <MESSAGE value="almost completed hw-4 main4.js" />
     <MESSAGE value="completed hw 4" />
-    <option name="LAST_COMMIT_MESSAGE" value="completed hw 4" />
+    <MESSAGE value="started hw5 main5.js" />
+    <option name="LAST_COMMIT_MESSAGE" value="started hw5 main5.js" />
   </component>
 </project>
