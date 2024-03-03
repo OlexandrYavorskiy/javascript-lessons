@@ -150,3 +150,11 @@ swap(numbers,0,1)
 /*- Написати функцію обміну валюти exchange(sumUAH,currencyValues,exchangeCurrency)
 Приклад exchange(10000,[{currency:'USD',value:40},{currency:'EUR',value:42}],'USD') // => 250*/
 
+function exchange(sumUAH,currencyValues,exchangeCurrency) {
+    for (const item of currencyValues) {
+        if (exchangeCurrency === item.currency){
+            return sumUAH / item.value
+        }
+}
+    }
+console.log(exchange(10000,[{currency:'USD',value:40},{currency:'EUR',value:42}],'USD'))
