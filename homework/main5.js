@@ -14,17 +14,73 @@ console.log(calc3(25,55))
 
 /*-- створити функцію яка приймає масив та виводить кожен його елемент*/
 
+let obj = {
+    name:'Vova',age:32,
+    nameAgeFn: () => {
+        console.log(obj.name,obj.age)
+    }
+}
+obj.nameAgeFn()
+
 /*-- створити функцію яка створює параграф з текстом. Текст задати через аргумент*/
+let h2 = (hello) => document.write(`<h2>${hello}</h2>`)
+h2('Hello')
+
 
 /*-- створити функцію яка створює ul з трьома елементами li. Текст li задати через аргумент всім однаковий*/
 
+let containerUl = (text) =>{
+    document.write(`<ul>`)
+    for (let i = 0; i < 3; i++) {
+        document.write(`<li>${text}</li>`)
+    }
+    document.write(`</ul>`)
+    }
+
+containerUl('hello moto')
+
 /*-- створити функцію яка створює ul з трьома елементами li. Текст li задати через аргумент всім однаковий. Кількість li визначається другим аргументом, який є числовим (тут використовувати цикл)*/
+
+let containerUl2 = (text,count) =>{
+    document.write(`<ul>`)
+    for (let i = 0; i < count; i++) {
+        document.write(`<li>${text}</li>`)
+    }
+    document.write(`</ul>`)
+}
+
+containerUl2('hello moto',3)
 
 /*-- створити функцію яка приймає масив примітивних елементів (числа,стрінги,булеві), та будує для них список*/
 
+let obj1 = {
+    name: 'Petro', age: 35, status: false,
+    arrFn: () => {
+            document.write(`<div><h1> name - ${obj1.name}, age - ${obj1.age}, status - ${obj1.status}</h1></div>`)
+        }
+}
+obj1.arrFn()
+
 /*-- створити функцію яка приймає масив об'єктів з наступними полями id,name,age , та виводить їх в документ. Для кожного об'єкту окремий блок.*/
 
+let obj2 = [
+    {id:'1',name:'sibas',age:2},
+    {id:'2',name:'salmon',age:1},
+    {id:'3',name:'tuna',age:3},
+]
+let obj2Fn =()=>{
+    for (let item of obj2) {
+        document.write(`<div><h1>id - ${item.id},name - ${item.name}, age - ${item.age}</h1>`)
+    }
+}
+obj2Fn()
+
+
+
 /*-- створити функцію яка повертає найменьше число з масиву*/
+
+
+
 
 /*-- створити функцію sum(arr)яка приймає масив чисел, сумує значення елементів масиву та повертає його. Приклад sum([1,2,10]) //->13*/
 
