@@ -101,8 +101,17 @@ console.log(sumArr)
 /*-- створити функцію swap(arr,index1,index2). Функція міняє місцями заняення у відаовідних індексах
 -Приклад  swap([11,22,33,44],0,1) //=> [22,11,33,44]*/
 
+let numbers = [11,22,33,44,55,66]
 
+let swap =(arr3,index1,index2) =>{
+    let val1 = arr3[index1]
+    let val2 = arr3[index2]
 
+    arr3.splice(index2,1,val1)
+    arr3.splice(index1,1,val2)
+    return console.log(arr3)
+}
+swap(numbers,0,1)
 
 
 
