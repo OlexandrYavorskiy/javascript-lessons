@@ -83,7 +83,20 @@ obj2Fn()
 
 
 
+let minMaxFn = (arr2) =>{
+    let min = arr2[0]
+    for (let val of arr2) {
+        if (min > val){
+            min = val
+        }
+        }
+    return min
+    }
 
+
+
+
+console.log(minMaxFn([5,2,3,4]))
 
 
 /*-- створити функцію sum(arr)яка приймає масив чисел, сумує значення елементів масиву та повертає його. Приклад sum([1,2,10]) //->13*/

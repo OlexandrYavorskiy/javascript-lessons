@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2566d415-5276-46a0-ba08-7f1e6b00e24c" name="Changes" comment="halfway through">
+    <list default="true" id="2566d415-5276-46a0-ba08-7f1e6b00e24c" name="Changes" comment="last man standing --_--">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/homework/main5.js" beforeDir="false" afterPath="$PROJECT_DIR$/homework/main5.js" afterDir="false" />
     </list>
@@ -80,7 +80,8 @@
       <workItem from="1709427419479" duration="1491000" />
       <workItem from="1709466179397" duration="7664000" />
       <workItem from="1709493179264" duration="1131000" />
-      <workItem from="1709537149437" duration="15335000" />
+      <workItem from="1709537149437" duration="15486000" />
+      <workItem from="1709555915981" duration="2053000" />
     </task>
     <task id="LOCAL-00001" summary="completed hw-1-1">
       <option name="closed" value="true" />
@@ -298,7 +299,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709554615427</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="last man standing --_--">
+      <option name="closed" value="true" />
+      <created>1709555585936</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1709555585936</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -319,6 +328,7 @@
     <MESSAGE value="completed hw 4" />
     <MESSAGE value="started hw5 main5.js" />
     <MESSAGE value="halfway through" />
-    <option name="LAST_COMMIT_MESSAGE" value="halfway through" />
+    <MESSAGE value="last man standing --_--" />
+    <option name="LAST_COMMIT_MESSAGE" value="last man standing --_--" />
   </component>
 </project>
