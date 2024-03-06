@@ -1,13 +1,14 @@
 
 /*- За допомогою циклу for і document.write() вивести 10 блоків div c довільним текстом всередині*/
 
+/*
 for (let i = 0; i < 10; i++) {
     document.write(`<div> hello </div>`)
 
 }
 
 
-/*- За допомогою циклу for і document.write() вивести 10 блоків div c довільним текстом і індексом всередині*/
+/!*- За допомогою циклу for і document.write() вивести 10 блоків div c довільним текстом і індексом всередині*!/
 let divs2 = [
     {name : 'boris'},
     {name : 'tanya'},
@@ -24,14 +25,14 @@ for (let i = 0; i < divs2.length; i++){
     document.write(`<div> ${divs2[i].name} - ${i}</div>`)
 }
 
-/*- За допомогою циклу while вивести в документ 20 блоків h1 c довільним текстом всередині.*/
+/!*- За допомогою циклу while вивести в документ 20 блоків h1 c довільним текстом всередині.*!/
 let j = 0
 while (j < 10) {
     document.write(`<h1>Wassup</h1>`)
     j++
 }
 
-/*- За допомогою циклу while вивести в документ 20 блоків h1 c довільним текстом і індексом всередині.*/
+/!*- За допомогою циклу while вивести в документ 20 блоків h1 c довільним текстом і індексом всередині.*!/
 let numbers = [1,2,3,4,5,6,7,8,9,10]
 let i = 0
 while (i < numbers.length) {
@@ -39,7 +40,7 @@ while (i < numbers.length) {
     i++
 }
 
-/*- Використовуючи данні з масиву, за допомоги document.write та циклу побудувати структуру по шаблону
+/!*- Використовуючи данні з масиву, за допомоги document.write та циклу побудувати структуру по шаблону
 Масив:
 
 let listOfItems = ['html', 'css', 'javascript', 'mysql', 'mongodb', 'react', 'angular', 'node.js'];
@@ -57,7 +58,7 @@ let listOfItems = ['html', 'css', 'javascript', 'mysql', 'mongodb', 'react', 'an
 </ul>
 
 замість 'ITEM OF ARRAY' підставити елемент з масиву щоб получився цілий список з даними з масиву
-*/
+*!/
 
 let listOfItems = ['html', 'css', 'javascript', 'mysql', 'mongodb', 'react', 'angular', 'node.js'];
 document.write(`<ul>`)
@@ -67,15 +68,15 @@ for (let listOfItem of listOfItems) {
 document.write(`</ul>`)
 
 
-/*Використовуючи данні з масиву, за допомоги document.write та циклу
+/!*Використовуючи данні з масиву, за допомоги document.write та циклу
 побудувати структуру по шаблону
-Великими літерами прописанні властивості об'єкту які потрібно впровадити в шаблон*/
-/*ШАБЛОН
+Великими літерами прописанні властивості об'єкту які потрібно впровадити в шаблон*!/
+/!*ШАБЛОН
  <div class="product-card">
         <h3 class="product-title">TITLE. Price - PRICE</h3>
         <img src="IMAGE" alt="" class="product-image">
 </div>
-Замість TITLE PRICE IMAGE - підставити відповідні поля з об'єкту*/
+Замість TITLE PRICE IMAGE - підставити відповідні поля з об'єкту*!/
 
 
 let products = [
@@ -110,11 +111,11 @@ for (const product of products) {
 
 
 
-/*є масив*/
-/* за допомоги циклу вивести:
+/!*є масив*!/
+/!* за допомоги циклу вивести:
  - користувачів зі статусом true
  - користувачів зі статусом false
- - користувачів які старші за 30 років*/
+ - користувачів які старші за 30 років*!/
 
 let users = [
     {name: 'vasya', age: 31, status: false},
@@ -144,4 +145,4 @@ for (let user of users) {
         console.log(user)
     }
 
-}
+}*/
