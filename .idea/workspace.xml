@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2566d415-5276-46a0-ba08-7f1e6b00e24c" name="Changes" comment="completed 5 out 11 tasks in main6.js">
+    <list default="true" id="2566d415-5276-46a0-ba08-7f1e6b00e24c" name="Changes" comment="completed main6.js">
+      <change afterPath="$PROJECT_DIR$/homework/hw-8.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/main8.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/homework/hw-1-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/homework/hw-1-1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework/main2.js" beforeDir="false" afterPath="$PROJECT_DIR$/homework/main2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework/main3.js" beforeDir="false" afterPath="$PROJECT_DIR$/homework/main3.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework/main4.js" beforeDir="false" afterPath="$PROJECT_DIR$/homework/main4.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework/main5.js" beforeDir="false" afterPath="$PROJECT_DIR$/homework/main5.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework/main6.js" beforeDir="false" afterPath="$PROJECT_DIR$/homework/main6.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +25,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
@@ -88,7 +88,11 @@
       <workItem from="1709537149437" duration="15486000" />
       <workItem from="1709555915981" duration="2617000" />
       <workItem from="1709645392584" duration="7071000" />
-      <workItem from="1709727562796" duration="14379000" />
+      <workItem from="1709727562796" duration="14522000" />
+      <workItem from="1709828491192" duration="2000" />
+      <workItem from="1709919473034" duration="312000" />
+      <workItem from="1709923064089" duration="89000" />
+      <workItem from="1710286653742" duration="7283000" />
     </task>
     <task id="LOCAL-00001" summary="completed hw-1-1">
       <option name="closed" value="true" />
@@ -330,7 +334,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709652473070</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="completed main6.js">
+      <option name="closed" value="true" />
+      <created>1709744073703</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1709744073703</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -354,6 +366,7 @@
     <MESSAGE value="last man standing --_--" />
     <MESSAGE value="completed hw 5 main5.js" />
     <MESSAGE value="completed 5 out 11 tasks in main6.js" />
-    <option name="LAST_COMMIT_MESSAGE" value="completed 5 out 11 tasks in main6.js" />
+    <MESSAGE value="completed main6.js" />
+    <option name="LAST_COMMIT_MESSAGE" value="completed main6.js" />
   </component>
 </project>
