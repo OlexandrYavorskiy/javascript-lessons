@@ -203,7 +203,7 @@ function searchCinderella(array) {
 console.log(searchCinderella(cinderellas));
 /*Додатково, знайти необхідну попелюшку за допомоги функції масиву find та відповідного колбеку*/
 
-let searchSin = cinderellas.find((cinderella) => cinderella.footSize === 36)
+let searchSin = cinderellas.find((cinderella) => cinderella.footSize === prince.shoe)
 console.log(searchSin)
 
 

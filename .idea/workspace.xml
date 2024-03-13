@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2566d415-5276-46a0-ba08-7f1e6b00e24c" name="Changes" comment="get stuck on main8.js">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="2566d415-5276-46a0-ba08-7f1e6b00e24c" name="Changes" comment="ive think i made this main8.js">
       <change beforePath="$PROJECT_DIR$/homework/main8.js" beforeDir="false" afterPath="$PROJECT_DIR$/homework/main8.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -91,7 +90,7 @@
       <workItem from="1709919473034" duration="312000" />
       <workItem from="1709923064089" duration="89000" />
       <workItem from="1710286653742" duration="7334000" />
-      <workItem from="1710325832119" duration="20344000" />
+      <workItem from="1710325832119" duration="20612000" />
     </task>
     <task id="LOCAL-00001" summary="completed hw-1-1">
       <option name="closed" value="true" />
@@ -349,7 +348,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710295219550</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="ive think i made this main8.js">
+      <option name="closed" value="true" />
+      <created>1710346499839</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1710346499839</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -375,6 +382,7 @@
     <MESSAGE value="completed 5 out 11 tasks in main6.js" />
     <MESSAGE value="completed main6.js" />
     <MESSAGE value="get stuck on main8.js" />
-    <option name="LAST_COMMIT_MESSAGE" value="get stuck on main8.js" />
+    <MESSAGE value="ive think i made this main8.js" />
+    <option name="LAST_COMMIT_MESSAGE" value="ive think i made this main8.js" />
   </component>
 </project>
