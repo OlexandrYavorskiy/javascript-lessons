@@ -186,6 +186,7 @@ console.log(reduce);
 --написати пошук всіх об'єктів, в який в modules є sass
 --написати пошук всіх об'єктів, в який в modules є docker*/
 
+/*
 let coursesArray = [
     {
         title: 'JavaScript Complex',
@@ -263,4 +264,4 @@ console.log(searchSass(coursesArray))
 let searchDocker = (arr) =>{
     return arr.filter((item) => item.modules.find(key => key === 'docker') )
 }
-console.log(searchDocker(coursesArray))
+console.log(searchDocker(coursesArray))*/
