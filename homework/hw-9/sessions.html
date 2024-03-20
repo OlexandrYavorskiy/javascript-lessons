@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+
+
+<script>
+    function readSessions() {
+        let ul = document.createElement('ul')
+        document.body.appendChild(ul)
+        let sessionsArray = JSON.parse(localStorage.getItem('sessions'))
+        for (const session of sessionsArray) {
+            let li = document.createElement('li')
+            li.innerText = session.day + ' ' + session.hour + ' ' + session.minutes + ' ' + session.seconds
+
+            ul.appendChild(li)
+        }
+    }
+    readSessions()
+</script>
+</body>
+</html>

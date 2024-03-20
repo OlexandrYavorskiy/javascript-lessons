@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2566d415-5276-46a0-ba08-7f1e6b00e24c" name="Changes" comment="made a start point of hw main9.js">
+    <list default="true" id="2566d415-5276-46a0-ba08-7f1e6b00e24c" name="Changes" comment="made a directory or each hw,to clean some space -_-">
+      <change afterPath="$PROJECT_DIR$/homework/hw-10/main10.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/hw-9/sessions.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework/hw-9/hw-9-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/homework/hw-9/hw-9-1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework/hw-9/main9.js" beforeDir="false" afterPath="$PROJECT_DIR$/homework/hw-9/main9.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework/main6.js" beforeDir="false" afterPath="$PROJECT_DIR$/homework/main6.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +17,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -38,23 +37,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "js.last.introduce.type": "LET",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;js.last.introduce.type&quot;: &quot;LET&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\futqe\IdeaProjects\javascript-lessons\homework\hw-8" />
+      <recent name="C:\Users\futqe\IdeaProjects\javascript-lessons\homework\hw-6" />
+      <recent name="C:\Users\futqe\IdeaProjects\javascript-lessons\homework\hw-5" />
+      <recent name="C:\Users\futqe\IdeaProjects\javascript-lessons\homework\hw-4" />
+      <recent name="C:\Users\futqe\IdeaProjects\javascript-lessons\homework\hw-3" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -96,7 +104,8 @@
       <workItem from="1710286653742" duration="7334000" />
       <workItem from="1710325832119" duration="20653000" />
       <workItem from="1710459251048" duration="987000" />
-      <workItem from="1710584861551" duration="14329000" />
+      <workItem from="1710584861551" duration="14911000" />
+      <workItem from="1710929304733" duration="7790000" />
     </task>
     <task id="LOCAL-00001" summary="completed hw-1-1">
       <option name="closed" value="true" />
@@ -378,7 +387,23 @@
       <option name="project" value="LOCAL" />
       <updated>1710460410000</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="made it main9.js">
+      <option name="closed" value="true" />
+      <created>1710612579873</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1710612579873</updated>
+    </task>
+    <task id="LOCAL-00037" summary="made a directory or each hw,to clean some space -_-">
+      <option name="closed" value="true" />
+      <created>1710613011186</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1710613011187</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -407,6 +432,8 @@
     <MESSAGE value="ive think i made this main8.js" />
     <MESSAGE value=" I made this main8.js" />
     <MESSAGE value="made a start point of hw main9.js" />
-    <option name="LAST_COMMIT_MESSAGE" value="made a start point of hw main9.js" />
+    <MESSAGE value="made it main9.js" />
+    <MESSAGE value="made a directory or each hw,to clean some space -_-" />
+    <option name="LAST_COMMIT_MESSAGE" value="made a directory or each hw,to clean some space -_-" />
   </component>
 </project>
