@@ -1,21 +1,21 @@
 /*Стоврити форму з трьома полями для name,surname,age та кнопкою. При натисканні на кнопку зчитати данні з полів, та вивести об'єкт в документ.
 Іншими словами : заповниои форму, натиснули кнопку, під формою з'явився блок з вашим об'єктом*/
 
-    let form = document.createElement('form')
-    let name = document.createElement('input')
-    let surname = document.createElement('input')
-    let age = document.createElement('input')
-    let btn = document.createElement('button')
-    btn.innerText = ' click on me'
-    document.body.appendChild(form)
-    form.append(name,surname,age,btn)
-    
-    let div = document.createElement('div')
-    name.oninput = function () {
-        div.innerText = this.value
+let form1 = document.forms['form1']
+let inputName = form1.name
+let inputSurName = form1.surname
+let inputAge = form1.age
 
-    }
- 
+
+form1.onsubmit = function (e) {
+    e.preventDefault()
+   let div = document.createElement('div')
+    div.innerText = `${inputName.value},${inputSurName.value},${inputAge.value}`
+    document.body.appendChild(div)
+}
+
+
+
 
 /*є сторінка, на якій є блок, я кому знаходиьтся цифра. написати код, який при кожному перезавантажені сторінки буде додавати до неї +1*/
 
@@ -49,6 +49,18 @@ saveVisit()
 
 /*- створити інпут який приймає вік людини та кнопку яка підтверджує дію.
 При натисканні на кнопку зчитати інформацію з інпуту та перевірити вік чи меньше він ніж 18, та повідомити про це користувача*/
+
+let form2 = document.forms['form2']
+let inptAge = form2.minAge
+
+form2.onsubmit = function (ev) {
+    ev.preventDefault()
+    if (inputAge.value < 18){
+        let div = document.createElement('div')
+        div.innerText = `Newbie ${inptAge.value}`
+        document.body.appendChild(div)
+    }
+}
 
 /* Створити 3 інпута та кнопку. Один визначає кількість рядків, другий - кількість ячеєк, третій вмиіст ячеєк.
  При натисканні кнопки, вся ця інформація зчитується і формується табличка, з відповідним вмістом.
