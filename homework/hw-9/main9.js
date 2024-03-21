@@ -248,10 +248,10 @@ for (const coursesDivElement of coursesArray) {
     document.body.appendChild(coursesH3)
     let coursesUl = document.createElement('ul')
     coursesUl.innerText = `${coursesDivElement.modules}`
-
+    document.body.appendChild(coursesUl)
     for (const coursesUlElement of coursesDivElement.modules) {
         let lis = document.createElement('li')
         lis.innerText = `${coursesUlElement}`
-        document.body.appendChild(lis)
+        coursesUl.appendChild(lis)
     }
 }

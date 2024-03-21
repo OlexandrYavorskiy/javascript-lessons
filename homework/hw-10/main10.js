@@ -1,10 +1,26 @@
 /*Стоврити форму з трьома полями для name,surname,age та кнопкою. При натисканні на кнопку зчитати данні з полів, та вивести об'єкт в документ.
 Іншими словами : заповниои форму, натиснули кнопку, під формою з'явився блок з вашим об'єктом*/
 
+    let form = document.createElement('form')
+    let name = document.createElement('input')
+    let surname = document.createElement('input')
+    let age = document.createElement('input')
+    let btn = document.createElement('button')
+    btn.innerText = ' click on me'
+    document.body.appendChild(form)
+    form.append(name,surname,age,btn)
+    
+    let div = document.createElement('div')
+    name.oninput = function () {
+        div.innerText = this.value
+
+    }
+ 
+
 /*є сторінка, на якій є блок, я кому знаходиьтся цифра. написати код, який при кожному перезавантажені сторінки буде додавати до неї +1*/
 
 
-/*Є сторінка index.html (назва довільна), при відвідуванні якої в локальне сховще, в масив sessions зберігається інформація про дату та час відвідування сторінки.
+/*Є сторінка index.html (назва довільна), при відвідуванні якої в локальне сховище, в масив sessions зберігається інформація про дату та час відвідування сторінки.
  Є ще сторінка sessions.html (назва довільна), при відвідуванні якої потрібно відмалювати всю інформацію про відвідування сторінки index.html.
  Інфу НЕ виводити в консоль, а побудувати дом структуру під кожну сессію*/
 function saveVisit() {
