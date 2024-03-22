@@ -9,9 +9,11 @@ let inputAge = form1.age
 
 form1.onsubmit = function (e) {
     e.preventDefault()
-   let div = document.createElement('div')
-    div.innerText = `${inputName.value},${inputSurName.value},${inputAge.value}`
-    document.body.appendChild(div)
+    let div = document.createElement('div')
+      document.body.appendChild(div)
+    let h1 = document.createElement('h1')
+    h1.innerText = `name - ${inputName.value},surname - ${inputSurName.value},age - ${inputAge.value}`
+    div.appendChild(h1)
 }
 
 
@@ -44,6 +46,132 @@ saveVisit()
 При натисканні next виводяться настпні 10 об'єктів
 При натисканні prev виводяться попередні 10 об'єктів*/
 
+let array = [
+    {name: 'ivan',id:1},
+    {name: 'ivan',id:1},
+    {name: 'ivan',id:1},
+    {name: 'ivan',id:1},
+    {name: 'ivan',id:1},
+    {name: 'ivan',id:1},
+    {name: 'ivan',id:1},
+    {name: 'ivan',id:1},
+    {name: 'ivan',id:1},
+    {name: 'ivan',id:1},
+
+    {name: 'lola',id:2},
+    {name: 'lola',id:2},
+    {name: 'lola',id:2},
+    {name: 'lola',id:2},
+    {name: 'lola',id:2},
+    {name: 'lola',id:2},
+    {name: 'lola',id:2},
+    {name: 'lola',id:2},
+    {name: 'lola',id:2},
+    {name: 'lola',id:2},
+
+    {name: 'kioto',id:3},
+    {name: 'kioto',id:3},
+    {name: 'kioto',id:3},
+    {name: 'kioto',id:3},
+    {name: 'kioto',id:3},
+    {name: 'kioto',id:3},
+    {name: 'kioto',id:3},
+    {name: 'kioto',id:3},
+    {name: 'kioto',id:3},
+    {name: 'kioto',id:3},
+
+    {name: 'ichiro',id:4},
+    {name: 'ichiro',id:4},
+    {name: 'ichiro',id:4},
+    {name: 'ichiro',id:4},
+    {name: 'ichiro',id:4},
+    {name: 'ichiro',id:4},
+    {name: 'ichiro',id:4},
+    {name: 'ichiro',id:4},
+    {name: 'ichiro',id:4},
+    {name: 'ichiro',id:4},
+
+    {name: 'fum',id:5},
+    {name: 'fum',id:5},
+    {name: 'fum',id:5},
+    {name: 'fum',id:5},
+    {name: 'fum',id:5},
+    {name: 'fum',id:5},
+    {name: 'fum',id:5},
+    {name: 'fum',id:5},
+    {name: 'fum',id:5},
+    {name: 'fum',id:5},
+
+    {name: 'sasha',id:6},
+    {name: 'sasha',id:6},
+    {name: 'sasha',id:6},
+    {name: 'sasha',id:6},
+    {name: 'sasha',id:6},
+    {name: 'sasha',id:6},
+    {name: 'sasha',id:6},
+    {name: 'sasha',id:6},
+    {name: 'sasha',id:6},
+    {name: 'sasha',id:6},
+
+    {name: 'kate',id:7},
+    {name: 'kate',id:7},
+    {name: 'kate',id:7},
+    {name: 'kate',id:7},
+    {name: 'kate',id:7},
+    {name: 'kate',id:7},
+    {name: 'kate',id:7},
+    {name: 'kate',id:7},
+    {name: 'kate',id:7},
+    {name: 'kate',id:7},
+
+    {name: 'oksana',id:8},
+    {name: 'oksana',id:8},
+    {name: 'oksana',id:8},
+    {name: 'oksana',id:8},
+    {name: 'oksana',id:8},
+    {name: 'oksana',id:8},
+    {name: 'oksana',id:8},
+    {name: 'oksana',id:8},
+    {name: 'oksana',id:8},
+    {name: 'oksana',id:8},
+
+    {name: 'olga',id:9},
+    {name: 'olga',id:9},
+    {name: 'olga',id:9},
+    {name: 'olga',id:9},
+    {name: 'olga',id:9},
+    {name: 'olga',id:9},
+    {name: 'olga',id:9},
+    {name: 'olga',id:9},
+    {name: 'olga',id:9},
+    {name: 'olga',id:9},
+
+    {name: 'taras',id:10},
+    {name: 'taras',id:10},
+    {name: 'taras',id:10},
+    {name: 'taras',id:10},
+    {name: 'taras',id:10},
+    {name: 'taras',id:10},
+    {name: 'taras',id:10},
+    {name: 'taras',id:10},
+    {name: 'taras',id:10},
+    {name: 'taras',id:10},
+]
+let btn1 = document.createElement('button')
+btn1.innerText = 'previous'
+btn1.addEventListener('click',function () {
+    for (const arrayElement of array) {
+        let div = document.createElement('div')
+        div.innerText = ``
+
+    }
+
+})
+let btn2 = document.createElement('button')
+btn2.innerText = 'next'
+document.body.append(btn1,btn2)
+
+
 /*- Створити довільний елемент з id = text та створити кнопку.Використовуючи JavaScript, зробіть так, щоб при натисканні на кнопку зникав елемент з id="text".*/
 
 
@@ -55,9 +183,9 @@ let inptAge = form2.minAge
 
 form2.onsubmit = function (ev) {
     ev.preventDefault()
-    if (inputAge.value < 18){
+    if (inptAge.value < 18){
         let div = document.createElement('div')
-        div.innerText = `Newbie ${inptAge.value}`
+        div.innerText = `Newbie `
         document.body.appendChild(div)
     }
 }
