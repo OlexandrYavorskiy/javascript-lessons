@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2566d415-5276-46a0-ba08-7f1e6b00e24c" name="Changes" comment="my mind is blowing right now -_- v.3">
+    <list default="true" id="2566d415-5276-46a0-ba08-7f1e6b00e24c" name="Changes" comment="my mind is blowing right now -_- v.4">
+      <change afterPath="$PROJECT_DIR$/homework/hw-11/hw-11.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/hw-11/main11.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework/hw-10/main10.js" beforeDir="false" afterPath="$PROJECT_DIR$/homework/hw-10/main10.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/hw-9/main9.js" beforeDir="false" afterPath="$PROJECT_DIR$/homework/hw-9/main9.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +18,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -107,7 +109,7 @@
       <workItem from="1710929304733" duration="7822000" />
       <workItem from="1711019547771" duration="4610000" />
       <workItem from="1711040969955" duration="7650000" />
-      <workItem from="1711113008781" duration="3059000" />
+      <workItem from="1711113008781" duration="8159000" />
     </task>
     <task id="LOCAL-00001" summary="completed hw-1-1">
       <option name="closed" value="true" />
@@ -437,14 +439,21 @@
       <option name="project" value="LOCAL" />
       <updated>1711049137650</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="my mind is blowing right now -_- v.4">
+      <option name="closed" value="true" />
+      <created>1711116603702</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1711116603702</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="completed massive" />
     <MESSAGE value="got stucked -_-" />
     <MESSAGE value="fixed" />
     <MESSAGE value="completed" />
@@ -469,6 +478,7 @@
     <MESSAGE value="made a directory or each hw,to clean some space -_-" />
     <MESSAGE value="my mind is blowing right now -_-" />
     <MESSAGE value="my mind is blowing right now -_- v.3" />
-    <option name="LAST_COMMIT_MESSAGE" value="my mind is blowing right now -_- v.3" />
+    <MESSAGE value="my mind is blowing right now -_- v.4" />
+    <option name="LAST_COMMIT_MESSAGE" value="my mind is blowing right now -_- v.4" />
   </component>
 </project>
