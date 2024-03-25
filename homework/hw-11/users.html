@@ -21,16 +21,18 @@
 
                 let li = document.createElement('li')
                 li.innerText = element.id + ' ' + element.name + ' '
+                document.body.appendChild(li)
                 let a = document.createElement('a')
+                document.body.appendChild(a)
                 a.href = 'usersId.html?id=' + element.id
                 a.innerText = 'User number' + element.id
+                ul.append(li,a)
 
-                li.appendChild(a)
-                ul.appendChild(li)
 
 
             }
         })
+
 
 </script>
 
