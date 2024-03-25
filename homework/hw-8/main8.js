@@ -1,7 +1,7 @@
 /*- Створити функцію конструктор для об'єктів User з полями id, name, surname , email, phone
 створити пустий масив, наповнити його 10 об'єктами new User(....)
 */
-function UserFn(id,name,surname,email,phone) {
+/*function UserFn(id,name,surname,email,phone) {
     this.id = id;
     this.name = name;
     this.surname = surname;
@@ -21,21 +21,23 @@ let user =[
     new UserFn(10,'sasha','leeroy','gg@gmail.com',380938994858),
     new UserFn(9,'oksana','leeroy','gg@gmail.com',380900844858),
 ]
-
+*/
 
 /*- Взяти масив з  User[] з попереднього завдання, та відфільтрувати , залишивши тільки об'єкти з парними id (filter)*/
+/*
 let filter = user.filter((userid) => !(userid.id % 2))
 console.log(filter)
+*/
 
 
 /*- Взяти масив з  User[] з попереднього завдання, та відсортувати його по id. по зростанню (sort)*/
-let sort = user.sort((firstObj,neighbor)=> firstObj.id - neighbor.id)
-console.log(sort)
+/*let sort = user.sort((firstObj,neighbor)=> firstObj.id - neighbor.id)
+console.log(sort)*/
 
 /*- створити класс для об'єктів Client з полями id, name, surname , email, phone, order (поле є масивом зі списком товарів)
 створити пустий масив, наповнити його 10 об'єктами Client*/
 
-class ClientClass{
+/*class ClientClass{
 
     constructor(id,name,surname,email,phone,order) {
         this.id = id;
@@ -60,13 +62,14 @@ let Client = [
 
     ]
 console.log(Client)
-/*- Взяти масив (Client [] з попереднього завдання).Відсортувати його по кількості товарів в полі order по зростанню. (sort)*/
+/!*- Взяти масив (Client [] з попереднього завдання).Відсортувати його по кількості товарів в полі order по зростанню. (sort)*!/
 let sortClient = Client.sort((client1,client2) => {
     return client1.order.length - client2.order.length
 })
-console.log(sortClient)
+console.log(sortClient)*/
 
 /*- Створити функцію конструктор яка дозволяє створювати об'єкти car, з властивостями модель, виробник, рік випуску, максимальна швидкість, об'єм двигуна. додати в об'єкт функції:*/
+/*
 function Car(model,company,year,maxSpeed,engine) {
     this.model = model;
     this.company = company;
@@ -74,27 +77,27 @@ function Car(model,company,year,maxSpeed,engine) {
     this.maxSpeed = maxSpeed;
     this.engine = engine
 
-    /*-- drive () - яка виводить в консоль `їдемо зі швидкістю ${максимальна швидкість} на годину`*/
+    /!*-- drive () - яка виводить в консоль `їдемо зі швидкістю ${максимальна швидкість} на годину`*!/
 
     this.drive = function () {
         console.log(`їдемо зі швидкістю` + ` `+ `${this.maxSpeed}`+ ` `+ `на годину`)
     }
-    /*-- info () - яка виводить всю інформацію про автомобіль в форматі `назва поля - значення поля`*/
+    /!*-- info () - яка виводить всю інформацію про автомобіль в форматі `назва поля - значення поля`*!/
 
     this.info = function () {
         console.log(`model` +` `+ `${this.model}`,`company` + ` `+ `${this.company}`,`year` +` `+ `${this.year}`,`maxSpeed`+ ` `+ `${this.maxSpeed}`,`engine` +` `+ `${this.engine}`)
     }
-    /*-- increaseMaxSpeed (newSpeed) - яка підвищує значення максимальної швидкості на значення newSpeed*/
+    /!*-- increaseMaxSpeed (newSpeed) - яка підвищує значення максимальної швидкості на значення newSpeed*!/
     this.increaseMaxSpeed = function (newSpeed) {
         this.maxSpeed = this.maxSpeed + newSpeed
         console.log(newSpeed)
     }
-    /*-- changeYear (newValue) - змінює рік випуску на значення newValue*/
+    /!*-- changeYear (newValue) - змінює рік випуску на значення newValue*!/
     this.changeYear = function (newValue){
         this.year = newValue
         console.log(newValue)
     }
-    /*-- addDriver (driver) - приймає об'єкт який "водій" з довільним набором полів, і додає його в поточний об'єкт car*/
+    /!*-- addDriver (driver) - приймає об'єкт який "водій" з довільним набором полів, і додає його в поточний об'єкт car*!/
     this.driver = []
     this.addDriver = function (driver){
         this.driver.push(driver)
@@ -109,13 +112,13 @@ car1.increaseMaxSpeed(300)
 car1.changeYear(2000)
 car1.addDriver(['Ash','Ketchum'])
 
-/*- (Те саме, тільки через клас)
+/!*- (Те саме, тільки через клас)
 Створити клас який дозволяє створювати об'єкти car, з властивостями модель, виробник, рік випуску, максимальна швидкість, об'єм двигуна. додати в об'єкт функції:
 -- drive () - яка виводить в консоль `їдемо зі швидкістю ${максимальна швидкість} на годину`
     -- info () - яка виводить всю інформацію про автомобіль в форматі `назва поля - значення поля`
     -- increaseMaxSpeed (newSpeed) - яка підвищує значення максимальної швидкості на значення newSpeed
     -- changeYear (newValue) - змінює рік випуску на значення newValue
-    -- addDriver (driver) - приймає об'єкт який "водій" з довільним набором полів, і додає його в поточний об'єкт car*/
+    -- addDriver (driver) - приймає об'єкт який "водій" з довільним набором полів, і додає його в поточний об'єкт car*!/
 class Car2Class{
 
     constructor(model,company,year,maxSpeed,engine) {
@@ -160,7 +163,7 @@ car2.addDriver(['Pikachu','Pokemon'])
 
 
 
-/*-створити класс/функцію конструктор попелюшка з полями ім'я, вік, розмір ноги. Створити масив з 10 попелюшок.*/
+/!*-створити класс/функцію конструктор попелюшка з полями ім'я, вік, розмір ноги. Створити масив з 10 попелюшок.*!/
 function Cinderella(name,age,footSize) {
     this.name = name;
     this.age = age;
@@ -180,7 +183,7 @@ let cinderellas = [
 ]
 console.log(cinderellas)
 
-/*Сторити об'єкт класу "принц" за допомоги класу який має поля ім'я, вік, туфелька яку він знайшов.*/
+/!*Сторити об'єкт класу "принц" за допомоги класу який має поля ім'я, вік, туфелька яку він знайшов.*!/
 class Prince{
 
     constructor(name,age,shoe) {
@@ -191,7 +194,7 @@ class Prince{
 }
 let prince = new Prince('Sasha',18,36)
 console.log(prince)
-/*За допомоги циклу знайти яка попелюшка повинна бути з принцом.*/
+/!*За допомоги циклу знайти яка попелюшка повинна бути з принцом.*!/
 
 function searchCinderella(array) {
     for (const girl of array) {
@@ -201,9 +204,10 @@ function searchCinderella(array) {
 }
 
 console.log(searchCinderella(cinderellas));
-/*Додатково, знайти необхідну попелюшку за допомоги функції масиву find та відповідного колбеку*/
+/!*Додатково, знайти необхідну попелюшку за допомоги функції масиву find та відповідного колбеку*!/
 
 let searchSin = cinderellas.find((cinderella) => cinderella.footSize === prince.shoe)
 console.log(searchSin)
 
+*/
 

@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2566d415-5276-46a0-ba08-7f1e6b00e24c" name="Changes" comment="my mind is blowing right now -_- v.4">
-      <change afterPath="$PROJECT_DIR$/homework/hw-11/hw-11.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/hw-11/main11.js" afterDir="false" />
+    <list default="true" id="2566d415-5276-46a0-ba08-7f1e6b00e24c" name="Changes" comment="in hw 11 made 2 tasks&#10;in hw 10 im stuck">
+      <change afterPath="$PROJECT_DIR$/homework/hw-11/users.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/hw-11/usersId.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework/hw-9/main9.js" beforeDir="false" afterPath="$PROJECT_DIR$/homework/hw-9/main9.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/hw-8/main8.js" beforeDir="false" afterPath="$PROJECT_DIR$/homework/hw-8/main8.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +18,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -109,7 +109,8 @@
       <workItem from="1710929304733" duration="7822000" />
       <workItem from="1711019547771" duration="4610000" />
       <workItem from="1711040969955" duration="7650000" />
-      <workItem from="1711113008781" duration="8159000" />
+      <workItem from="1711113008781" duration="8851000" />
+      <workItem from="1711371647396" duration="3257000" />
     </task>
     <task id="LOCAL-00001" summary="completed hw-1-1">
       <option name="closed" value="true" />
@@ -447,14 +448,21 @@
       <option name="project" value="LOCAL" />
       <updated>1711116603702</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="in hw 11 made 2 tasks&#10;in hw 10 im stuck">
+      <option name="closed" value="true" />
+      <created>1711121994633</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1711121994633</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="got stucked -_-" />
     <MESSAGE value="fixed" />
     <MESSAGE value="completed" />
     <MESSAGE value="stuck" />
@@ -479,6 +487,7 @@
     <MESSAGE value="my mind is blowing right now -_-" />
     <MESSAGE value="my mind is blowing right now -_- v.3" />
     <MESSAGE value="my mind is blowing right now -_- v.4" />
-    <option name="LAST_COMMIT_MESSAGE" value="my mind is blowing right now -_- v.4" />
+    <MESSAGE value="in hw 11 made 2 tasks&#10;in hw 10 im stuck" />
+    <option name="LAST_COMMIT_MESSAGE" value="in hw 11 made 2 tasks&#10;in hw 10 im stuck" />
   </component>
 </project>
