@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2566d415-5276-46a0-ba08-7f1e6b00e24c" name="Changes" comment="in hw 11 done&#10;in hw 10 im stuck">
+    <list default="true" id="2566d415-5276-46a0-ba08-7f1e6b00e24c" name="Changes" comment="im late">
+      <change afterPath="$PROJECT_DIR$/homework/hw-10/addingplus.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/hw-10/hw-10.html" beforeDir="false" afterPath="$PROJECT_DIR$/homework/hw-10/hw-10.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/hw-10/main10.js" beforeDir="false" afterPath="$PROJECT_DIR$/homework/hw-10/main10.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +112,8 @@
       <workItem from="1711113008781" duration="8851000" />
       <workItem from="1711371647396" duration="3566000" />
       <workItem from="1711375717926" duration="221000" />
-      <workItem from="1711843297247" duration="2691000" />
+      <workItem from="1711843297247" duration="2712000" />
+      <workItem from="1711979560189" duration="2230000" />
     </task>
     <task id="LOCAL-00001" summary="completed hw-1-1">
       <option name="closed" value="true" />
@@ -471,14 +475,21 @@
       <option name="project" value="LOCAL" />
       <updated>1711375933140</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="im late">
+      <option name="closed" value="true" />
+      <created>1711848201239</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1711848201239</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="completed" />
     <MESSAGE value="stuck" />
     <MESSAGE value="maybe fixed)" />
     <MESSAGE value="finished" />
@@ -503,6 +514,7 @@
     <MESSAGE value="my mind is blowing right now -_- v.4" />
     <MESSAGE value="in hw 11 made 2 tasks&#10;in hw 10 im stuck" />
     <MESSAGE value="in hw 11 done&#10;in hw 10 im stuck" />
-    <option name="LAST_COMMIT_MESSAGE" value="in hw 11 done&#10;in hw 10 im stuck" />
+    <MESSAGE value="im late" />
+    <option name="LAST_COMMIT_MESSAGE" value="im late" />
   </component>
 </project>

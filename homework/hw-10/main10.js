@@ -18,10 +18,6 @@ form1.onsubmit = function (e) {
 
 
 
-
-/*є сторінка, на якій є блок, я кому знаходиьтся цифра. написати код, який при кожному перезавантажені сторінки буде додавати до неї +1*/
-
-
 /*Є сторінка index.html (назва довільна), при відвідуванні якої в локальне сховище, в масив sessions зберігається інформація про дату та час відвідування сторінки.
  Є ще сторінка sessions.html (назва довільна), при відвідуванні якої потрібно відмалювати всю інформацію про відвідування сторінки index.html.
  Інфу НЕ виводити в консоль, а побудувати дом структуру під кожну сессію*/
@@ -46,134 +42,51 @@ saveVisit()
 При натисканні next виводяться настпні 10 об'єктів
 При натисканні prev виводяться попередні 10 об'єктів*/
 
-let array = [
-    {name: 'ivan',id:1},
-    {name: 'ivan',id:1},
-    {name: 'ivan',id:1},
-    {name: 'ivan',id:1},
-    {name: 'ivan',id:1},
-    {name: 'ivan',id:1},
-    {name: 'ivan',id:1},
-    {name: 'ivan',id:1},
-    {name: 'ivan',id:1},
-    {name: 'ivan',id:1},
+let objCont = document.getElementById('obj-con')
+let prevButton = document.getElementById('prev-button')
+let nextButton = document.getElementById('next-button')
+document.body.append(objCont,prevButton,nextButton)
 
-    {name: 'lola',id:2},
-    {name: 'lola',id:2},
-    {name: 'lola',id:2},
-    {name: 'lola',id:2},
-    {name: 'lola',id:2},
-    {name: 'lola',id:2},
-    {name: 'lola',id:2},
-    {name: 'lola',id:2},
-    {name: 'lola',id:2},
-    {name: 'lola',id:2},
+let objects = [...Array(100)].map((_,i) =>({
+    id: i + 1,
+    text: `obj ${i + 1}`
+}))
+let curIndex = 0
+showObjects(objects,curIndex)
 
-    {name: 'kioto',id:3},
-    {name: 'kioto',id:3},
-    {name: 'kioto',id:3},
-    {name: 'kioto',id:3},
-    {name: 'kioto',id:3},
-    {name: 'kioto',id:3},
-    {name: 'kioto',id:3},
-    {name: 'kioto',id:3},
-    {name: 'kioto',id:3},
-    {name: 'kioto',id:3},
+function showObjects(objects, startIndex) {
+    objCont.innerHTML = '';
 
-    {name: 'ichiro',id:4},
-    {name: 'ichiro',id:4},
-    {name: 'ichiro',id:4},
-    {name: 'ichiro',id:4},
-    {name: 'ichiro',id:4},
-    {name: 'ichiro',id:4},
-    {name: 'ichiro',id:4},
-    {name: 'ichiro',id:4},
-    {name: 'ichiro',id:4},
-    {name: 'ichiro',id:4},
-
-    {name: 'fum',id:5},
-    {name: 'fum',id:5},
-    {name: 'fum',id:5},
-    {name: 'fum',id:5},
-    {name: 'fum',id:5},
-    {name: 'fum',id:5},
-    {name: 'fum',id:5},
-    {name: 'fum',id:5},
-    {name: 'fum',id:5},
-    {name: 'fum',id:5},
-
-    {name: 'sasha',id:6},
-    {name: 'sasha',id:6},
-    {name: 'sasha',id:6},
-    {name: 'sasha',id:6},
-    {name: 'sasha',id:6},
-    {name: 'sasha',id:6},
-    {name: 'sasha',id:6},
-    {name: 'sasha',id:6},
-    {name: 'sasha',id:6},
-    {name: 'sasha',id:6},
-
-    {name: 'kate',id:7},
-    {name: 'kate',id:7},
-    {name: 'kate',id:7},
-    {name: 'kate',id:7},
-    {name: 'kate',id:7},
-    {name: 'kate',id:7},
-    {name: 'kate',id:7},
-    {name: 'kate',id:7},
-    {name: 'kate',id:7},
-    {name: 'kate',id:7},
-
-    {name: 'oksana',id:8},
-    {name: 'oksana',id:8},
-    {name: 'oksana',id:8},
-    {name: 'oksana',id:8},
-    {name: 'oksana',id:8},
-    {name: 'oksana',id:8},
-    {name: 'oksana',id:8},
-    {name: 'oksana',id:8},
-    {name: 'oksana',id:8},
-    {name: 'oksana',id:8},
-
-    {name: 'olga',id:9},
-    {name: 'olga',id:9},
-    {name: 'olga',id:9},
-    {name: 'olga',id:9},
-    {name: 'olga',id:9},
-    {name: 'olga',id:9},
-    {name: 'olga',id:9},
-    {name: 'olga',id:9},
-    {name: 'olga',id:9},
-    {name: 'olga',id:9},
-
-    {name: 'taras',id:10},
-    {name: 'taras',id:10},
-    {name: 'taras',id:10},
-    {name: 'taras',id:10},
-    {name: 'taras',id:10},
-    {name: 'taras',id:10},
-    {name: 'taras',id:10},
-    {name: 'taras',id:10},
-    {name: 'taras',id:10},
-    {name: 'taras',id:10},
-]
-let btn1 = document.createElement('button')
-btn1.innerText = 'previous'
-btn1.addEventListener('click',function () {
-    for (const arrayElement of array) {
-        let div = document.createElement('div')
-        div.innerText = ``
-
+    for (let i = startIndex; i < startIndex + 10; i++) {
+        const object = objects[i];
+        let objElem = document.createElement('div')
+        objElem.classList.add('object')
+        objElem.innerHTML = `<h3>${object.id}</h3> <p>${object.text}</p>`
+        objCont.appendChild(objElem)
     }
-
+}
+prevButton.addEventListener('click', ()=>{
+    if (curIndex > 0){
+        curIndex -= 10
+        showObjects(objects,curIndex)
+    }
 })
-let btn2 = document.createElement('button')
-btn2.innerText = 'next'
-document.body.append(btn1,btn2)
+nextButton.addEventListener('click',() => {
+    if (curIndex < objects.length - 10){
+        curIndex += 10
+        showObjects(objects,curIndex)
+    }
+})
+
 
 
 /*- Створити довільний елемент з id = text та створити кнопку.Використовуючи JavaScript, зробіть так, щоб при натисканні на кнопку зникав елемент з id="text".*/
+let textElem = document.getElementById('text')
+let hideBut = document.getElementById('hide')
 
+hideBut.addEventListener('click', () => {
+    textElem.style.display = 'none'
+})
 
 /*- створити інпут який приймає вік людини та кнопку яка підтверджує дію.
 При натисканні на кнопку зчитати інформацію з інпуту та перевірити вік чи меньше він ніж 18, та повідомити про це користувача*/
